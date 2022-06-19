@@ -1,0 +1,56 @@
+<%- include ../partials/header.ejs%>
+    <%- include ../partials/main_nav.ejs%>
+
+        <main id="contactus">
+            <div id="contact-info">
+
+                <h3 class="display-5 text-center">Contact Me</h3>
+
+                <div class="container-fluid">
+                    <form action="" class="form">
+                        <div class="row">
+                            <div class="col-md-6 mt-3">
+                                <div class="form-group">
+                                    <label for=""> First Name</label>
+                                    <input type="text" class="form-control" id="first-name" placeholder="First Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <div class="form-group">
+                                    <label for=""> Last Name</label>
+                                    <input type="text" class="form-control" id="Last-name" placeholder="Last Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mt-3">
+                                <div class="form-group">
+                                    <label for=""> Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <div class="form-group">
+                                    <label for="">Phone</label>
+                                    <input type="text" class="form-control" id="phone" placeholder="Phone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 mt-3">
+                                <div class="form-group">
+                                    <label for=""> Message</label>
+                                    <textarea class="form-control" id="message" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mt-3">
+                                <input type="button" value="Send Message" class="btn btn-success btn-lg w-100">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </main>
+        <%- include ../partials/bottom_nav.ejs%>
+            <%- include ../partials/footer.ejs%>
